@@ -1,0 +1,1424 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.heading h4 {
+    font-weight: 500;
+    color: #6681f2;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.heading h2 span {
+    color: #6681f2;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/*********common css ends*****/
+
+/************* first_nav end **************/
+#first_nav {
+    background: #f6f6f8;
+}
+
+#first_nav .fir_nav {
+    margin-bottom: -15px;
+}
+
+#first_nav i {
+    padding-right: 10px;
+    color: #6681f2;
+}
+
+#first_nav h3 {
+    line-height: 50px;
+    padding-right: 30px;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#first_nav ul {
+    float: right;
+}
+
+#first_nav ul li {
+    float: left;
+}
+
+#first_nav ul li a {
+    padding-left: 20px;
+    line-height: 50px;
+    color: #6681f2;
+}
+
+#first_nav ul li i {
+    transition: all linear .3s;
+}
+
+#first_nav ul li i:hover {
+    color: #3b57c9;
+}
+
+/************* first_nav end **************/
+
+
+
+/************* navbar start **************/
+.navbar {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar img {
+    left: 0;
+}
+
+.navbar .nav-item {
+    padding-left: 25px;
+}
+
+.navbar a {
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.navbar .nav-item a:hover {
+    color: #6681f2 !important;
+}
+
+.navbar .get {
+    color: #fff;
+    background: #6681f2;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    transition: all linear .3s;
+    line-height: 90px;
+    border: 2px solid #6681f2;
+
+}
+
+.navbar .get:hover {
+    color: #6681f2 !important;
+    background: none;
+    border: 2px solid #6681f2;
+}
+
+.navbar .navbar-nav .nav-item .active {
+    color: #6681f2 !important;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #2a363f;
+    z-index: 999;
+    line-height: 60px;
+    transition: all linear .3s;
+    z-index: 9999;
+}
+
+/************* navbar ends **************/
+/************* banner part start **************/
+
+#banner_part {
+    background: url(../images/banner.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 254px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#banner_part .overlay {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner_part .text h2 {
+    padding-top: 250px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+
+#banner_part .text h2 span {
+    color: #6681f2;
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#banner_part .text p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+#banner_part .text i {
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    color: #6681f2;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all linear .3s;
+}
+
+#banner_part .text a:hover i {
+    background: #6681f2;
+    color: #fff;
+}
+
+#banner_part .text a {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 18px;
+    border-radius: 5px;
+    background: #6681f2;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #6681f2;
+    transition: all linear .3s;
+}
+
+#banner_part .text a:hover {
+    background: none;
+    color: #6681f2;
+}
+
+#banner_part .text h4 {
+    padding-top: 10px;
+}
+
+/************* banner part ends **************/
+
+
+#about {
+    background: #f9f9f9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#about .a-img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about .a-text h2 {
+    padding-top: 55px;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#about .a-text h2 span {
+    color: #6681f2;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: block;
+}
+
+#about .a-text p {
+    padding-top: 20px;
+    color: #666;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 40px;
+    line-height: 25px;
+}
+
+#about .a-text h4 {
+    padding-top: 15px;
+}
+
+#about .a-text a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #6681f2;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #6681f2;
+    transition: all linear .3s;
+}
+
+#about .a-text a:hover {
+    border: 2px solid #6681f2;
+    background: none;
+    color: #6681f2;
+}
+
+/************* about ends **************/
+
+
+/************* service start **************/
+
+#service {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#service .one {
+    padding: 20px 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+#service .one:hover {
+    background: #fff;
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.25);
+}
+
+#service .one i {
+    color: #fff;
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    background: #6681f2;
+}
+
+#service .one h5 {
+    padding-top: 20px;
+    color: #3b3b3b;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#service .one p {
+    color: #3b3b3b;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/************* service ends **************/
+
+
+/************* choose Start **************/
+
+#choose {
+    background: #f9f9f9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#choose .c_head {
+    border-right: 2px solid #6681f2;
+}
+
+#choose .c_head h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#choose .c_head h2 span {
+    color: #6681f2;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#choose .c_p p {
+    color: #666;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 40px;
+    line-height: 25px;
+}
+
+#choose .Choose_one {
+    padding: 40px 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: #fff;
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+#choose .Choose_one .icon i {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: center;
+    background: #6681f2;
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    top: -35px;
+    right: 20px;
+}
+
+#choose .Choose_one .icon:after {
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    background: #6681f2;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    content: '';
+    top: 22px;
+    right: 37px;
+}
+
+#choose .Choose_one h5 {
+    padding-top: 15px;
+    color: #3b3b3b;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#choose .Choose_one p {
+    color: #3b3b3b;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/************* choose Ends **************/
+
+/************* client start **************/
+#client {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#client .cli_head {
+    border-right: 2px solid #6681f2;
+}
+
+#client .cli_head h4 {
+    font-weight: 500;
+    color: #6681f2;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#client .cli_head h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#client .cli_head h2 span {
+    color: #6681f2;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+
+#client .client_slide {
+    margin-top: 50px;
+}
+
+#client .client_pro {
+    position: relative;
+    cursor: move;
+}
+
+#client .client_pro i {
+    color: #a4b5fd;
+    margin-left: 220px;
+    font-size: 50px;
+}
+
+#client .client_pro p {
+    padding-left: 220px;
+    padding-right: 200px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 34px;
+}
+
+#client .client_pro .img {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#client .client_pro .img img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#client .client_slide .right_arrow {
+    color: #6681f2;
+    position: absolute;
+    top: -115px;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid #6681f2;
+    line-height: 35px;
+    text-align: center;
+    transition: all linear .3s;
+}
+
+#client .client_slide .right_arrow:hover {
+    background: #6681f2;
+    color: #fff;
+}
+
+#client .client_slide .left_arrow {
+    color: #6681f2;
+    position: absolute;
+    top: -115px;
+    right: 50px;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid #6681f2;
+    line-height: 35px;
+    text-align: center;
+    transition: all linear .3s;
+}
+
+#client .client_slide .left_arrow:hover {
+    background: #6681f2;
+    color: #fff;
+}
+
+/************* client Ends **************/
+
+
+/************* team_part start **************/
+
+#team_part {
+    background: #f9f9f9;
+    padding-top: 60px;
+    padding-bottom: 130px;
+    position: relative;
+}
+
+#team_part .team {
+    padding-bottom: 50px;
+}
+
+#team_part .team_p p {
+    padding-top: 20px;
+    color: #666;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 40px;
+    line-height: 25px;
+}
+
+.team-member {
+    position: relative;
+}
+
+
+#team_part .team-member .team-detail {
+    height: 100px;
+    width: 100%;
+    background: #fff;
+    transition: all linear .3s;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#team_part .team-member:hover .team-detail {
+    height: 130px;
+    background: #6681f2;
+}
+
+#team_part .team-member .team-detail ul li {
+    display: inline-block;
+    padding: 0 10px;
+    opacity: 0;
+}
+
+#team_part .team-member:hover .team-detail ul li {
+    opacity: 1;
+    color: #fff;
+}
+
+#team_part .team-member .team-detail h4 {
+    color: #353858;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#team_part .team-member .team-detail h5 {
+    color: #353858;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#team_part .team-member:hover .team-detail h4 {
+    color: #fff;
+}
+
+
+#team_part .team-member .team-detail ul li a {
+    color: transparent;
+    font-size: 20px;
+    transition: all linear .3s;
+}
+
+#team_part .team-member:hover .team-detail ul li a {
+    color: #fff;
+}
+
+/************* team_part Ends **************/
+
+/************* counter start **************/
+#counter {
+    background: url(../images/counter_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#counter:after{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    content: '';
+}
+.cont{
+    z-index: 999;
+    position: relative;
+}
+
+.count {
+	height: 150px;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	transition: all linear .3s;
+	cursor: pointer;
+}
+
+
+#counter .count:hover {
+    background: #6681f2;
+}
+
+#counter .count .counter {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#counter .count h3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+/************* counter Ends **************/
+
+
+/************* portfolio start **************/
+#portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+#portfolio .port_head {
+    border-right: 2px solid #6681f2;
+}
+
+#portfolio .port_head h4 {
+    font-weight: 500;
+    color: #6681f2;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#portfolio .port_head h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#portfolio .port_head h2 span {
+    color: #6681f2;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#portfolio .portfolio_img {
+    margin-top: 70px;
+}
+
+[class*=" imghvr-"], [class^="imghvr-"] {
+	background-color: #6681f2;
+}
+[class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
+	background-color: #6681f2;
+}
+.slide_img h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top:  150px;
+}
+#portfolio .right_arrow {
+    color: #6681f2;
+    position: absolute;
+    top: -50px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid #6681f2;
+    line-height: 35px;
+    text-align: center;
+    transition: all linear .3s;
+}
+
+#portfolio .right_arrow:hover {
+    background: #6681f2;
+    color: #fff;
+}
+
+#portfolio .left_arrow {
+    color: #6681f2;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid #6681f2;
+    line-height: 35px;
+    text-align: center;
+}
+
+#portfolio .left_arrow:hover {
+    background: #6681f2;
+    color: #fff;
+}
+
+/************* portfolio Ends **************/
+
+
+/************* blog_part start **************/
+#blog_part {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f9f9f9;
+}
+
+#blog_part .blog {
+    padding-bottom: 50px;
+}
+
+#blog_part .blog_head {
+    border-right: 2px solid #6681f2;
+}
+
+#blog_part .blog_head h4 {
+    font-weight: 500;
+    color: #6681f2;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#blog_part .blog_head h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#blog_part .blog_head h2 span {
+    color: #6681f2;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#blog_part .blog_p p {
+    padding-top: 20px;
+    color: #666;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 40px;
+    line-height: 25px;
+}
+
+#blog_part .blog-detail {
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+#blog_part .blog-detail a img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 30px;
+    transition: all linear .2s;
+}
+
+#blog_part .blog-detail:hover img {
+    transform: scale(1.1);
+}
+
+#blog_part .blog-detail ul li {
+    display: inline-block;
+    padding: 0 20px;
+    color: #666;
+}
+
+#blog_part .blog-detail ul li a {
+    color: #666;
+    transition: all linear .3s;
+}
+
+#blog_part .blog-detail ul li a:hover {
+    color: #6681f2;
+}
+
+#blog_part .blog-detail ul li span {
+    padding-left: 5px;
+}
+
+#blog_part .blog-detail a h6 {
+    color: #666;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 50px;
+    transition: all linear .3s;
+    padding-bottom: 20px;
+}
+
+#blog_part .blog-detail a:hover {
+    text-decoration: none;
+
+}
+
+#blog_part .blog-detail a:hover h6 {
+    color: #6681f2;
+}
+
+#blog_part .blog-detail span a {
+    color: #666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+    transition: all linear .3s;
+}
+
+#blog_part .blog-detail span a i {
+    transition: all linear .2s;
+}
+
+#blog_part .blog-detail span a:hover i {
+    padding-left: 5px;
+}
+
+#blog_part .blog-detail span a:hover {
+    color: #6681f2;
+}
+
+/************* blog_part Ends **************/
+
+
+/************* futter start **************/
+#from_part {
+    padding-bottom: 30px;
+    background: #f9f9f9;
+}
+
+#from_part input {
+    border: 0;
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#from_part textarea {
+    border: 0;
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#from_part button {
+    border: 1px solid #6681f2;
+    margin-top: 8px;
+    padding: 8px 60px;
+    background: #6681f2;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+#from_part button:hover {
+    background: transparent;
+    border: 1px solid #6681f2;
+    color: #6681f2;
+}
+
+#from_part .help {
+    margin-top: 30px;
+}
+
+#from_part .help .for-text {
+    background: #fff;
+    padding: 16px 33px;
+    border-radius: 6px;
+}
+
+#from_part .help h1 {
+    color: #666;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+#from_part .help h1 span {
+    color: #666;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#from_part .help h1 a {
+    color: #666;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: all linear .3s;
+
+}
+
+#from_part .help h1 a:hover {
+    color: #6681f2;
+    text-decoration: none;
+}
+
+
+
+#from_part .help ul li {
+    display: inline-block;
+}
+
+#from_part .help ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #6681f2;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all linear .3s;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 15px;
+    border: 1px solid rgba(102, 129, 242, 0);
+
+}
+
+#from_part .help ul li a:hover {
+    color: #6681f2;
+    border: 1px solid #6681f2;
+    background: transparent;
+}
+
+/************* from_part Ends **************/
+
+
+/************* futter start **************/
+
+#futter {
+    background: #2a363f;
+    padding-bottom: 50px;
+}
+
+
+#futter .futter_detail .logo h2 {
+    padding-top: 40px;
+    color: #ffff;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#futter .futter_detail p {
+    color: #8b969e;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+#futter .futter_detail span {
+    color: #fff;
+}
+
+#futter .futter_detail .pay img {
+    width: 90%;
+    padding-top: 30px;
+
+}
+
+#futter .futter_link h4 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#futter .futter_link h4:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #8b969e;
+    bottom: 18px;
+    left: 0;
+
+}
+
+#futter .futter_link ul li {
+    padding: 4px 0;
+}
+
+#futter .futter_link ul li a {
+    color: #8b969e;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+
+#futter .futter_link ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+#copyright .copyright {
+    height: 50px;
+    background: #242f37;
+}
+
+#copyright .copyright p {
+    color: #8b969e;
+    padding-top: 10px;
+}
+
+.dote {
+    height: 40px;
+    width: 40px;
+    background: #6681f2;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border-radius: 50%;
+    border: 2px solid #6681f2;
+    transition: all linear .3s;
+
+}
+
+.dote:hover i {
+    background: transparent;
+    color: #6681f2;
+}
+
+.dote:hover {
+    background: transparent;
+}
+
+.dote i {
+    color: #fff;
+    padding-left: 35%;
+    line-height: 40px;
+    font-size: 20px;
+    transition: all linear .3s;
+}
+
+/************* futter Ends **************/
+/************* inner_firt_nav start **************/
+#inner_first_nav {
+    background: #2a363f;
+}
+
+#inner_first_nav .fir_nav {
+    margin-bottom: -15px;
+}
+
+#inner_first_nav i {
+    padding-right: 10px;
+    color: #fff;
+}
+
+#inner_first_nav h3 {
+    line-height: 65px;
+    padding-right: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#inner_first_nav ul {
+    float: right;
+}
+
+#inner_first_nav ul li {
+    float: left;
+}
+
+#inner_first_nav ul li a {
+    padding-left: 20px;
+    line-height: 65px;
+    color: #999;
+}
+
+#inner_first_nav ul li i {
+    color: #fff;
+    transition: all linear .3s;
+}
+
+#inner_first_nav ul li i:hover {
+    color: #f1f1f1;
+}
+
+/************* inner_firt_nav ends **************/
+/************* inner_navbar ends **************/
+
+.inner.navbar {
+    top: 65px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #f9f9f9;
+}
+
+.inner.navbar .nav-item {
+    padding-left: 25px;
+}
+
+.inner.navbar a {
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 80px;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.inner.navbar .nav-item a:hover {
+    color: #6681f2 !important;
+}
+
+.inner.navbar .get {
+    color: #fff;
+    background: #6681f2;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    transition: all linear .3s;
+    line-height: 90px;
+    border: 2px solid #6681f2;
+
+}
+
+.inner.navbar .get:hover {
+    color: #6681f2 !important;
+    background: none;
+    border: 2px solid #6681f2;
+}
+
+/************* inner_navbar  ends **************/
+/************* inner_banner start **************/
+#inner_banner_part {
+    background: url(../images/service-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    background-attachment: fixed;
+    margin-top: 109px;
+}
+
+#inner_banner_part .overlay {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#inner_banner_part h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
+}
+
+#inner_banner_part a {
+    color: #fff;
+}
+
+#inner_banner_part .text {
+    height: 200px;
+    width: 600px;
+    background: rgba(102, 129, 242, 0.5);
+    display: block;
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+#inner_banner_part .text .a {
+    color: #6681f2;
+    transition: all linear .3s;
+}
+
+#inner_banner_part .text .a:hover {
+    color: #fff;
+}
+
+/************* inner_banner ends **************/
+/************* inner_poertfolio start **************/
+#portfolio_in {
+    background: #f9f9f9;
+    padding: 60px 0;
+}
+
+.po_img {
+    height: 350px;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.po_img img {
+    width: 100%;
+    height: 100%;
+    transition: all linear .3s;
+}
+
+.po_img:hover img {
+    transform: scale(1.1);
+}
+
+.po_img .po-overlay {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background: rgba(102, 129, 242, 0.5);
+    bottom: -50px;
+    left: 0;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.po_img:hover .po-overlay {
+    bottom: 0;
+    opacity: 1;
+}
+
+.po-overlay p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+/************* inner_portfolio ends **************/
+/************* inner_blog start **************/
+
+.blog_img img {
+    height: 350px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.in_blog_de h4 {
+    color: #666;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.in_blog_de p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
+}
+
+
+.in_blog_de ul li {
+    display: inline-block;
+    padding: 0 10px;
+    color: #666;
+}
+
+/************* inner_blog ends **************/
